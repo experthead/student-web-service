@@ -1,9 +1,11 @@
 package telran.b7a.student.dto;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
-public class AddStudentDto {
+@NoArgsConstructor
+public class StudentCredentialsDto {
 	Integer id;
 	String name;
 	String password;

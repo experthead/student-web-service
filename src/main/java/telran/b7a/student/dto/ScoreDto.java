@@ -1,9 +1,11 @@
 package telran.b7a.student.dto;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
-public class AddScoreDto {
+@NoArgsConstructor
+public class ScoreDto {
 	String examName;
 	Integer score;
 }
